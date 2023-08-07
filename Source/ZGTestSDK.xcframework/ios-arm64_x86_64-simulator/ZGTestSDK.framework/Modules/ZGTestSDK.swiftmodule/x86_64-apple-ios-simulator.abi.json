@@ -1,0 +1,632 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZGTestSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZGSecureEnclaveManager",
+        "printedName": "ZGSecureEnclaveManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "makeAndStorePublicKey",
+            "printedName": "makeAndStorePublicKey(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Security.SecKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKey",
+                    "printedName": "Security.SecKey",
+                    "usr": "c:@T@SecKeyRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ZGTestSDK22ZGSecureEnclaveManagerC21makeAndStorePublicKey4nameSo03SecJ3RefaSgSS_tFZ",
+            "mangledName": "$s9ZGTestSDK22ZGSecureEnclaveManagerC21makeAndStorePublicKey4nameSo03SecJ3RefaSgSS_tFZ",
+            "moduleName": "ZGTestSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeAndStoreKey",
+            "printedName": "makeAndStoreKey(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Security.SecKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKey",
+                    "printedName": "Security.SecKey",
+                    "usr": "c:@T@SecKeyRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ZGTestSDK22ZGSecureEnclaveManagerC15makeAndStoreKey4nameSo03SecI3RefaSgSS_tFZ",
+            "mangledName": "$s9ZGTestSDK22ZGSecureEnclaveManagerC15makeAndStoreKey4nameSo03SecI3RefaSgSS_tFZ",
+            "moduleName": "ZGTestSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadPublicKey",
+            "printedName": "loadPublicKey(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Security.SecKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKey",
+                    "printedName": "Security.SecKey",
+                    "usr": "c:@T@SecKeyRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ZGTestSDK22ZGSecureEnclaveManagerC13loadPublicKey4nameSo03SecH3RefaSgSS_tFZ",
+            "mangledName": "$s9ZGTestSDK22ZGSecureEnclaveManagerC13loadPublicKey4nameSo03SecH3RefaSgSS_tFZ",
+            "moduleName": "ZGTestSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadKey",
+            "printedName": "loadKey(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Security.SecKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKey",
+                    "printedName": "Security.SecKey",
+                    "usr": "c:@T@SecKeyRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ZGTestSDK22ZGSecureEnclaveManagerC7loadKey4nameSo03SecG3RefaSgSS_tFZ",
+            "mangledName": "$s9ZGTestSDK22ZGSecureEnclaveManagerC7loadKey4nameSo03SecG3RefaSgSS_tFZ",
+            "moduleName": "ZGTestSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeKey",
+            "printedName": "removeKey(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ZGTestSDK22ZGSecureEnclaveManagerC9removeKey4nameSbSS_tFZ",
+            "mangledName": "$s9ZGTestSDK22ZGSecureEnclaveManagerC9removeKey4nameSbSS_tFZ",
+            "moduleName": "ZGTestSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encrypt",
+            "printedName": "encrypt(text:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SecKey",
+                "printedName": "Security.SecKey",
+                "usr": "c:@T@SecKeyRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ZGTestSDK22ZGSecureEnclaveManagerC7encrypt4text4with10Foundation4DataVSgSS_So9SecKeyRefatFZ",
+            "mangledName": "$s9ZGTestSDK22ZGSecureEnclaveManagerC7encrypt4text4with10Foundation4DataVSgSS_So9SecKeyRefatFZ",
+            "moduleName": "ZGTestSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decrypt",
+            "printedName": "decrypt(data:with:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SecKey",
+                "printedName": "Security.SecKey",
+                "usr": "c:@T@SecKeyRef"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ZGTestSDK22ZGSecureEnclaveManagerC7decrypt4data4with10completiony10Foundation4DataV_So9SecKeyRefaySSSgctFZ",
+            "mangledName": "$s9ZGTestSDK22ZGSecureEnclaveManagerC7decrypt4data4with10completiony10Foundation4DataV_So9SecKeyRefaySSSgctFZ",
+            "moduleName": "ZGTestSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sign",
+            "printedName": "sign(key:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SecKey",
+                "printedName": "Security.SecKey",
+                "usr": "c:@T@SecKeyRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ZGTestSDK22ZGSecureEnclaveManagerC4sign3key4data10Foundation4DataVSgSo9SecKeyRefa_AItFZ",
+            "mangledName": "$s9ZGTestSDK22ZGSecureEnclaveManagerC4sign3key4data10Foundation4DataVSgSo9SecKeyRefa_AItFZ",
+            "moduleName": "ZGTestSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "verifySignature",
+            "printedName": "verifySignature(data:signature:publicKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SecKey",
+                "printedName": "Security.SecKey",
+                "usr": "c:@T@SecKeyRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ZGTestSDK22ZGSecureEnclaveManagerC15verifySignature4data9signature9publicKeySb10Foundation4DataV_AJSo03SecK3RefatFZ",
+            "mangledName": "$s9ZGTestSDK22ZGSecureEnclaveManagerC15verifySignature4data9signature9publicKeySb10Foundation4DataV_AJSo03SecK3RefatFZ",
+            "moduleName": "ZGTestSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9ZGTestSDK22ZGSecureEnclaveManagerC",
+        "mangledName": "$s9ZGTestSDK22ZGSecureEnclaveManagerC",
+        "moduleName": "ZGTestSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZGTestSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 439,
+      "length": 26,
+      "value": "\"Public key: \""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 578,
+      "length": 44,
+      "value": "\"Public key as string: \""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 621,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1200,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1382,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1733,
+      "length": 77,
+      "value": "\"Can't encrypt \""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1809,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2192,
+      "length": 27,
+      "value": "\"Fetched key: \""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2218,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2332,
+      "length": 45,
+      "value": "\"Fetched key as string: \""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2376,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2791,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3469,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3615,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3655,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3979,
+      "length": 39,
+      "value": "\"Can't encrypt, Algorith not supported\""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4494,
+      "length": 77,
+      "value": "\"Can't encrypt \""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4570,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4936,
+      "length": 39,
+      "value": "\"Can't decrypt. Algorith not supported\""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5398,
+      "length": 77,
+      "value": "\"Can't decrypt \""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5474,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5917,
+      "length": 36,
+      "value": "\"Can't sign, Algorith not supported\""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6334,
+      "length": 74,
+      "value": "\"Can't sign \""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6407,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6747,
+      "length": 52,
+      "value": "\"Can't verify signature. Algorithm is not supported\""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6820,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7111,
+      "length": 50,
+      "value": "\"Can't verify signature \""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7160,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7182,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vladimirzivanov\/Desktop\/ZGTestSDK\/ZGTestSDK\/ZGSecureEnclaveManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7213,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}
